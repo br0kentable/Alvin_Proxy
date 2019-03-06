@@ -5,14 +5,32 @@
   padding-top: 2rem;
   padding-bottom: 1.5rem;
   max-width: 70rem;
+  display: block;
+  box-sizing: border-box;
   position: relative;
 }
 
 .footerEmailTitleContainer {
   color: #ffffff;
   padding: 0.5rem;
-  width: 60%;
-  margin: auto;
+}
+
+.footerEmailTitle {
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.footerEmailSubtitle {
+  padding-bottom: 0.5rem;
+}
+
+.emailSectionContainer {
+  padding-left: 0.5rem;
+}
+
+.bottomBorder {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
 .subscribe {
@@ -24,7 +42,7 @@
 }
 
 .inputAndButton {
-  text-align: center;
+  padding-left: 0.5rem;
 }
 
 .subscribeContainer {
@@ -54,4 +72,72 @@
 .subscribeButtonContainer {
   display: inline-block;
   width: 20%;
+}
+
+.seeRestaurants {
+  margin: 1rem 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.seeRestaurantsLink {
+  cursor: pointer;
+}
+
+.linksSectionContainer {
+  width: 100%;
+  display: table;
+  padding-left: 0.5rem;
+}
+
+.linksTitle {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.linksBox {
+  float: left;
+  width: 20%;
+  padding-right: 0.75rem;
+}
+
+.exampleLink {
+  cursor: pointer;
+  color: #acacac;
+  font-size: 0.875rem;
+}
+
+.exampleLink:hover {
+  color: #ffffff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fakeButton {
+  color: #ffffff;
+  background: #666;
+  padding: .6rem .8rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.fakeButton:hover {
+  background-color: #999999;
+}
+
+.copyrightEtcContainer {
+  display: block;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.copyrightText {
+  font-size: 0.8rem;
+  color: #acacac;  
 }
