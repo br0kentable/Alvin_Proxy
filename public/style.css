@@ -1,14 +1,57 @@
-#ReviewsMainModuleProxy {
-  display: block;
+.footerContainer {
+  background-color: #333333;
+  line-height: 1.5em;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  max-width: 70rem;
+  position: relative;
 }
 
-/* #CountDown {
-  margin-left: 5px;
+.footerEmailTitleContainer {
+  color: #ffffff;
+  padding: 0.5rem;
+  width: 60%;
+  margin: auto;
+}
+
+.subscribe {
+  line-height: 1rem;
+  font-size: 1rem;
+  padding: 0.75rem;
+  width: 100%;
+  clear: both;
+}
+
+.inputAndButton {
+  text-align: center;
+}
+
+.subscribeContainer {
+  width: 40%;
   display: inline-block;
+  border-radius: 3px;
+  margin-right: 1.5rem;
 }
 
-#Related {
-  margin: 10%;
-  display: block;
-} */
+.subscribeButton {
+  background-color: rgb(88, 166, 194);
+  color: white;
+  border: solid transparent;
+  border-radius: 5%;
+  line-height: 1rem;
+  border-radius: 0;
+  font-size: 1rem;
+  padding: 14px 40px;
+  clear: both;
+  transition: background-color 0.5s ease;
+}
 
+.subscribeButton:hover {
+  background-color: rgb(76, 136, 158);
+}
+
+.subscribeButtonContainer {
+  display: inline-block;
+  width: 20%;
+}

@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/restaurants/:restaurantId', express.static(path.join(__dirname, '../public')));
+// app.use('/restaurants/:restaurantId', express.static(path.join(__dirname, '../Restaurant_details/src')));
 
 // app.get('/restaurants/:restaurantId', (req,res)=>res.send(req.params.restaurantId))
 
