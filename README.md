@@ -1,13 +1,15 @@
 # Project Name
 
-> Project description
+> This is a project recreating the look and basic functionality of an OpenTable.com restaurant page. This is a proxy server that brings together each seperate module and serves them together.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/br0kentable/Review-Module
+  - https://github.com/br0kentable/Restaurant_details
+  - https://github.com/br0kentable/Photo-Gallery-Module
+  - https://github.com/br0kentable/Ryan_Proxy
+  - https://github.com/br0kentable/Eric_Proxy
+
 
 ## Table of Contents
 
@@ -17,14 +19,15 @@
 
 ## Usage
 
-> Some usage instructions
+ - Clone the individual services from the links above (Review-Module, Restaurant_details, Photo-Gallery-Module)
+ - Start the servers for each module
+ - Start this proxy with: `npm start`
 
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
-- etc
 
 ## Development
 
@@ -33,7 +36,7 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
+## To install dependencies for this server:
 npm install
 ```
 
