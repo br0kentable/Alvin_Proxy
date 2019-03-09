@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -12,8 +12,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
   crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
-  <!-- <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/elasticbeanstalk-us-west-1-399759106655/resources/reviewsStyle.css"> -->
-  <link rel="stylesheet" href="http://localhost:1337/reviewsStyle.css">
+  <link rel="stylesheet" href="http://review-module.pbpwgep7vp.us-west-1.elasticbeanstalk.com/reviewsStyle.css">
   <title>BrokenTable</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -22,17 +21,16 @@
   <main class="container-fluid">
     <!-- <div id='PhotoGalleryModule'></div> -->
     <div id='Eatery'></div>
-    <script src="http://localhost:3001/main.js"></script>
+    <!-- <script src="http://localhost:3001/main.js"></script> -->
     <div id="ReviewsMainModuleProxy"></div>
-    <script>
+    <!-- <script>
       ReactDOM.render(
         React.createElement(Eatery),
         document.getElementById('Eatery')
       )
-    </script>
+    </script> -->
     <!-- <script src="http://localhost:3002/bundle.js"></script> -->
-    <!-- <script src="https://s3-us-west-1.amazonaws.com/elasticbeanstalk-us-west-1-399759106655/resources/bundle.js"></script> -->
-    <script src="http://localhost:1337/bundle.js"></script>
+    <script src="http://review-module.pbpwgep7vp.us-west-1.elasticbeanstalk.com/bundle.js"></script>
   </main>
 
   <footer class="container-fluid footerContainer">
